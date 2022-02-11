@@ -8,7 +8,7 @@ export default function AboutMe() {
     setIsOpen(true);
   }
 
-  const email = 'franciscopantojag98@gmail.com';
+  const email = 'aliwajahat021@gmail.com';
   return (
     <section className="container">
       <div className="containerCont sectionCont sectionContAbout">
@@ -16,7 +16,7 @@ export default function AboutMe() {
         <header>
           <h2>about me</h2>
           <h3>
-            Hi! My name is Francisco Pantoja,{' '}
+            Hi! My name is Wajahat Ali,{' '}
             <span className="colorRed">Web Developer</span>
           </h3>
         </header>
@@ -46,7 +46,7 @@ export default function AboutMe() {
           </strong>
           ; also you are more than welcome to follow my work on my{' '}
           <strong>
-            <a target="_blank" href="https://github.com/franciscopantojag">
+            <a target="_blank" href="https://github.com/wajahat-dev">
               github
             </a>
           </strong>{' '}
@@ -54,7 +54,7 @@ export default function AboutMe() {
           <strong>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/franciscopantojaguillen/"
+              href="https://www.linkedin.com/in/wajahat-dev/"
             >
               linkedin
             </a>

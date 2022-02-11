@@ -33,11 +33,12 @@ export default function Modal() {
     setIsOpen(false);
   };
   const submitForm = async (e) => {
+    debugger
     e.preventDefault();
     const emailjsObj = {
-      serviceId: "gmail",
-      templateId: "template_aRfTvlUy",
-      userId: process.env.NEXT_PUBLIC_USER_ID,
+      serviceId: "service_mqtr90a",
+      templateId: "template_bx8pe44",
+      userId: `${process.env.NEXT_PUBLIC_USER_ID}`,
     };
     try {
       if (allowSend) {

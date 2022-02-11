@@ -15,29 +15,29 @@ export default function Education() {
               <h5>
                 <span>
                   {" "}
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2015 - 2019
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2020 - 2024
                 </span>
               </h5>
               <h3>Bachelor of Engineering</h3>
-              <h4>Universidad de Piura</h4>
+              <h4>Sindh Madressat-ul Islam</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Systems and Industrial Engineering</span>
+                  <span>Software Engineering</span>
                 </li>
               </ul>
             </div>
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2004 - 2014
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2016-2018
                 </span>
               </h5>
               <h3>High School</h3>
-              <h4>Colegio San Agustin de Chiclayo</h4>
+              <h4>Federal Collage Cantt</h4>
               <ul>
                 <li>
-                  <span className="colorRed">- </span> <span>IB Diploma</span>
+                  <span className="colorRed">- </span> <span>Science Group</span>
                 </li>
               </ul>
             </div>

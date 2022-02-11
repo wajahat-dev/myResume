@@ -17,31 +17,35 @@ export default function Experience() {
                   <FontAwesomeIcon icon={faCalendarAlt} /> 2021 - Present
                 </span>
               </h5>
-              <h3>Software Engineer</h3>
-              <h4>Oktana Corporation</h4>
+              <h3>React Developer</h3>
+              <h4>Kcompute </h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Software Development using Salesforce products</span>
+                  <span>UI Components Development</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>UI, app, and API Development</span>
+                  <span>Binding of UI element to Backend</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Backend NodeJS development</span>
+                  <span>Responsive to change request</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>debugging, fixings</span>
                 </li>
               </ul>
             </div>
-            <div className="cardCont">
+            {/* <div className="cardCont">
               <h5>
                 <span>
                   <FontAwesomeIcon icon={faCalendarAlt} /> 2019
                 </span>
               </h5>
               <h3>Quality Assurance Assistant</h3>
-              <h4>KAR{' & '}MA S.A.C.</h4>
+              <h4>{' & '}</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
@@ -56,8 +60,8 @@ export default function Experience() {
                   <span>Value chain analysis</span>
                 </li>
               </ul>
-            </div>
-          </div>
+            </div> */}
+          </div> 
         </div>
       </div>
     </section>

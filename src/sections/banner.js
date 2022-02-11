@@ -5,8 +5,8 @@ import { useContext } from 'react';
 import { Contexto } from '../appContext';
 
 export default function Banner() {
-  const name = 'Francisco Pantoja';
-  const email = 'franciscopantojag98@gmail.com';
+  const name = 'Wajahat Ali';
+  const email = 'aliwajahat021@gmail.com';
   const { setIsOpen } = useContext(Contexto);
 
   function openModal() {
@@ -25,33 +25,33 @@ export default function Banner() {
           </h2>
           <h1>{name}</h1>
           <h2>
-            Web Developer |
+            MERNG Developer |
             <span className={styles.brH2}>
               <br />
             </span>{' '}
-            Bachelor of Engineering
+            Software Engineer
           </h2>
-          <h3>HTML / CSS / JS / React</h3>
+          <h3>React / GraphQl / Nodejs / Mongodb</h3>
           <h3>
             <a href={`mailto:${email}`}>{email}</a>
           </h3>
           <div className={`${styles.buttons}`}>
             <div>
               <button className={`${styles.but}`}>
-                <a target="_blank" href="/pdf/resume_francisco_pantoja.pdf">
+                <a target="_blank" href="/pdf/Wajahat Ali CV.pdf">
                   DOWNLOAD RESUME
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/franciscopantojaguillen/"
+                  href="https://www.linkedin.com/in/wajahat-dev/"
                 >
                   <Linkedin />
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
-                <a target="_blank" href="https://github.com/franciscopantojag">
+                <a target="_blank" href="https://github.com/wajahat-dev">
                   <Github />
                 </a>
               </button>
