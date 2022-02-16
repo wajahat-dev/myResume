@@ -7,6 +7,12 @@
   --white: rgb(8, 8, 8);
   --border: #393939;
   --red: rgb(236, 24, 57);
+/* --dark-black: #00ABE1;
+  --light-gray: #161F6D;
+  --text: rgb(233, 233, 233);
+  --white: rgb(8, 8, 8);
+  --border: #393939;
+  --red: #00ABE; */
 }
 li {
   list-style: none;

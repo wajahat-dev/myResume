@@ -22,15 +22,10 @@ export default function AboutMe() {
         </header>
 
         <p>
-          I am a peruvian software developer, focused on web technologies. I
-          have experience using some programming languages such as JavaScript
-          and Python, in collaboration with HTML and CSS to build amazing and
-          complex web sites; involving beautiful interfaces, client side logic
-          (front-end), and server side logic (back-end). I have knowledge in
-          Computer Science, Responsive Web Design, Object Oriented Programming,
-          APIs and Microservices, Database Management, graphic design, video
-          editing, among others. For the projects in which I was involved, I've
-          used the version control system Git, together with Github.
+        I am a software engineer, having expertise in web techonologies and cybersecurity. I have good programming experience like, 
+        javascript and its frameworksb for creating frontend and backend in collaboration with react, nodejs. I have good knowledge of DBMS.
+         i use mongoose. all of these technologies make me A MERN stack developer. 
+        In security I have good practice in api security with the help of burpsuite a leading intusdry software. Last I can work in any cloud api.
         </p>
         <p>
           I am very passionate and dedicated to my work, i have plenty of
