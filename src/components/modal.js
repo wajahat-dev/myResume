@@ -173,7 +173,7 @@ export default function Modal() {
         </div>
       </form>
       <div onClick={closeModal} className={`${styles.cross}`}>
-        <FontAwesomeIcon color="rgba(34, 34, 34, 0.9)" icon={faTimes} />{" "}
+        <FontAwesomeIcon color="white" icon={faTimes} />{" "}
       </div>
     </Modal1>
   );

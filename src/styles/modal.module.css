@@ -155,7 +155,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: var(--red);
+  background-color: var(--light-gray);
   height: 1.5em;
   width: 1.5em;
   border-radius: 4px;
@@ -164,7 +164,7 @@
 }
 @media (hover: hover) {
   .cross:hover {
-    background-color: rgb(255, 24, 57);
+    background-color: var(--border);
   }
 }
 .cross > svg {
@@ -196,7 +196,7 @@
 }
 
 .submitButton {
-  background-color: var(--red);
+  background-color: var(--light-gray);
   outline: none;
   border-radius: 0.2em;
   width: 100%;
@@ -205,13 +205,14 @@
   cursor: pointer;
   font-size: inherit;
   border: 1px solid var(--red);
-  color: var(--light-gray);
+  /* color: var(--light-gray); */
+  color: white;
   font-weight: 600;
   font-family: inherit;
 }
 
 @media (hover: hover) {
   .submitButton:hover {
-    background-color: rgb(255, 24, 57);
+    background-color: #ed4b82;
   }
 }

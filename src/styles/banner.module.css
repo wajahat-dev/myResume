@@ -83,8 +83,9 @@
   margin-bottom: 0.5em;
 }
 .but {
-  background-color: var(--red);
-  color: var(--dark-black);
+  background-color: var(--light-gray);
+  /* color: var(--dark-black); */
+  color: white;
   font-weight: 700;
   height: 36px;
   border-radius: 0.2em;
@@ -95,7 +96,7 @@
 .svgBut {
   padding: 0;
   display: flex;
-  background-color: var(--dark-black);
+  /* background-color: var(--light-gray); */
   border-radius: 100%;
   width: 36px;
   height: 36px;
@@ -122,10 +123,11 @@
     background-color: rgba(255, 249, 249, 0.2);
   }
   .svgBut > a:hover svg > path {
-    fill: rgb(255, 24, 57);
+    /* fill: rgb(255, 24, 57); */
   }
   .but:hover {
     background-color: rgb(255, 24, 57);
+    background-color: var(--border);;
   }
 }
 .svgBut > a:active {
